@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+box > ul > li > p {color: orange;}
+header .menu li:nth-child(2) {background: red;}
+#wrap .content .prod {border: 3px dashed gray;}
+</style>
+</head>
+<body>
+
+	<h1>상품 주문서</h1>
+
+	<form action="#" method="get">
+		<h1>상품 주문서</h1>
+		<fieldset>
+			<legend>개인 정보</legend>
+			<ul>
+				<li><label for="uname" class="tit">이름</label> <input
+					type="text" id="uname" placeholder="여백없이 입력" required="required">
+				</li>
+				<li><label for="tel1" class="tit">연락처</label> <input type="tel"
+					id="tel1" placeholder="연락가능한 전화번호"></li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>배송지 정보</legend>
+			<ul>
+				<li><label for="addr" class="tit">주소</label> <input type="text"
+					size="40" required="required" id="addr"></li>
+				<li><label for="tel2" class="tit">전화번호</label> <input
+					type="tel" id="tel2" required="required" id="addr"></li>
+				<li><label for="comment" class="tit">메모</label> <textarea
+						rows="3" cols="40" id="comment"></textarea></li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>주문 정보</legend>
+			<ul>
+				<li><label><input type="checkbox">사과(100g)</label> 
+					
+					
+					</li>
+			</ul>
+		</fieldset>
+
+		<div>
+			<input type="submit" value="주문하기"> <input type="reset"
+				value="다시작성">
+		</div>
+</body>
+</html>
